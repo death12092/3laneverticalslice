@@ -3809,6 +3809,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1077171604 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f8f2735ba38e61f42ab1db464dd325fc, type: 3}
+  m_PrefabInstance: {fileID: 2106645468}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1085079731
 GameObject:
   m_ObjectHideFlags: 0
@@ -5894,6 +5899,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f8f2735ba38e61f42ab1db464dd325fc, type: 3}
   m_PrefabInstance: {fileID: 2106645468}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1580728381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077171604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c8f4efe2a4bb2d408b61858579aa3fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bowMesh: {fileID: 0}
+  aimspeed: 10
+  arrowToSpawn: {fileID: 919132149155446097, guid: 1ccd32e7d71a4f04c906ec2e697135f7, type: 3}
+  start: {fileID: 0}
+  end: {fileID: 0}
 --- !u!1 &1611626864
 GameObject:
   m_ObjectHideFlags: 0
@@ -7323,7 +7345,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f8f2735ba38e61f42ab1db464dd325fc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1580728381}
   m_SourcePrefab: {fileID: 100100000, guid: f8f2735ba38e61f42ab1db464dd325fc, type: 3}
 --- !u!1 &2107318637
 GameObject:
